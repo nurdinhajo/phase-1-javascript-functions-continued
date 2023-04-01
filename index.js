@@ -15,7 +15,7 @@ function mondayWork(activity = "go to the office"){
 // defines wrapAdjective function according to the specification
 
 function wrapAdjective(highlight = "*") {
- return function(adjective) {
+ return function(adjective = "a hard worker") {
    return `You are ${highlight}${adjective}${highlight}!`;
  }
 }
